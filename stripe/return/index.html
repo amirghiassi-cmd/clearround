@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Return to ClearRound after Stripe account setup." />
+  <title>Return to ClearRound</title>
+  <link rel="stylesheet" href="../../styles.css" />
+  <style>
+    .stripe-wrap{min-height:100vh;display:grid;place-items:center;padding:32px 20px;background:#f4f7fb}
+    .stripe-card{width:min(620px,100%);background:#fff;border-radius:28px;padding:clamp(28px,6vw,56px);box-shadow:0 16px 45px rgba(17,46,83,.12);text-align:center}
+    .stripe-logo{width:84px;height:84px;border-radius:20px;margin-bottom:24px}
+    .stripe-card h1{margin:0 0 16px;color:#112e53;font-size:clamp(2rem,7vw,3.4rem);line-height:1.05}
+    .stripe-card p{margin:0 auto 16px;max-width:500px;color:#4c5663;line-height:1.7}
+    .status-mark{display:grid;place-items:center;width:54px;height:54px;margin:0 auto 22px;border-radius:50%;background:#e8f7ef;color:#0f7a4c;font-size:28px;font-weight:800}
+    .stripe-note{margin-top:24px!important;padding:16px 18px;border-radius:14px;background:#f3f6f9;color:#34465d!important;font-size:.95rem}
+    .home-link{display:inline-block;margin-top:14px;color:#0f5d3a;font-weight:700;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main class="stripe-wrap">
+    <section class="stripe-card" aria-labelledby="page-title">
+      <img class="stripe-logo" src="../../clearround-logo.png" alt="ClearRound" />
+      <div class="status-mark" aria-hidden="true">✓</div>
+      <h1 id="page-title">Return to ClearRound</h1>
+      <p>You can now return to the ClearRound app. ClearRound will securely check your Stripe account and show whether any further setup is required.</p>
+      <p class="stripe-note">Reaching this page does not itself confirm that payments are enabled. Your status is confirmed securely inside ClearRound.</p>
+      <a class="home-link" href="../../index.html">Visit the ClearRound website</a>
+    </section>
+  </main>
+</body>
+</html>
