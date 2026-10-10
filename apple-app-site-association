@@ -1,16 +1,1 @@
-{
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "J667L5G36E.com.amirghiassi.ClearRoundApp",
-        "paths": [
-          "/stripe/return",
-          "/stripe/return/*",
-          "/stripe/refresh",
-          "/stripe/refresh/*"
-        ]
-      }
-    ]
-  }
-}
+{"applinks":{"apps":[],"details":[]}}
